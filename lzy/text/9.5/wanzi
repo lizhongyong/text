@@ -2,19 +2,19 @@
 <html>
  <head>
   <title>表格</title>
+  <link type="image/x-icon" rel="shortcut icon" href="../image/baidu.ico"/>
   <style>
-    .d1{border-bottom-width:0px;}
-	.d2{border-top-width:0px;}
 	.t{border-spacing:0px;}
   </style>
  </head>
   <body>
    <table class="t" border="1" width="600" height="600" align="center">
-    <tr><td class="d1"></td><td colspan="2"></td>
+   <caption>万字表</caption>
+    <tr><td rowspan="2"></td><td colspan="2"></td>
 	</tr>
-	<tr><td class="d2"></td><td></td><td class="d1"></td>
+	<tr><td></td><td rowspan="2"></td>
 	</tr>
-	<tr><td colspan="2"></td><td class="d2"></td>
+	<tr><td colspan="2"></td>
    </table>
   </body>
 </html>
