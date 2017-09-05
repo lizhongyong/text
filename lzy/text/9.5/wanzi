@@ -1,0 +1,20 @@
+<!DOCTPYE HTML>
+<html>
+ <head>
+  <title>表格</title>
+  <style>
+    .d1{border-bottom-width:0px;}
+	.d2{border-top-width:0px;}
+	.t{border-spacing:0px;}
+  </style>
+ </head>
+  <body>
+   <table class="t" border="1" width="600" height="600" align="center">
+    <tr><td class="d1"></td><td colspan="2"></td>
+	</tr>
+	<tr><td class="d2"></td><td></td><td class="d1"></td>
+	</tr>
+	<tr><td colspan="2"></td><td class="d2"></td>
+   </table>
+  </body>
+</html>
